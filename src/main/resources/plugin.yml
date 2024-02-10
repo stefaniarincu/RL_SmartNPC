@@ -1,0 +1,21 @@
+main: ro.smartnpc.SmartNPC
+name: SmartNPC
+version: 1.0
+authors: [Dragos Ghinea, Stefania Rincu, Bogdan Iliescu]
+description: Reinforcement learning college project
+api-version: 1.20
+depend: [Citizens]
+softdepend:
+  - SlimeWorldManager
+  - FastAsyncWorldEdit
+
+commands:
+  smartnpc_world:
+    description: SmartNPC world commands
+    aliases: [snpc_world, sworld]
+  smartnpc_environment:
+    description: SmartNPC environment commands
+    aliases: [snpc_env, env, environment]
+  smartnpc_agent:
+    description: SmartNPC agent commands
+    aliases: [snpc_agent, agent]
